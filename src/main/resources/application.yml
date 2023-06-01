@@ -1,0 +1,14 @@
+# MongoDB connection properties
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: employee
+  activemq:
+      broker-url: tcp://localhost:61616
+      user: admin
+      password: admin
+
+queue: "user-queue"
+server:
+  port: 8900
